@@ -1,3 +1,4 @@
+import { BearDisplay } from './BearDisplay';
 import { BearsCounter } from './BearsCounter';
 
 
@@ -13,6 +14,7 @@ export const BearPage = () => {
         <BearsCounter title='Osos Negros' bearKey='blackBears' increaseBearKey='increaseBlackBears' />
         <BearsCounter title='Osos Polares' bearKey='polarBears' increaseBearKey='increasePolarBears' />
         <BearsCounter title='Osos Pandas' bearKey='pandaBears' increaseBearKey='increasePandaBears' />
+        <BearDisplay />
       </div>
 
     </>
